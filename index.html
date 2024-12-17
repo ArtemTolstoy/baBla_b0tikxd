@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baBla_b0tikxd</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>baBla_b0tikxd - Добро пожаловать!</h1>
+        </div>
+    </header>
+
+    <!-- Игровой раздел -->
+    <section id="game-section">
+        <div class="container">
+            <h2>Игра: Кликни на круг</h2>
+            <div id="game-container">
+                <div id="circle"></div>
+            </div>
+            <div id="score">Очки: 0</div>
+        </div>
+    </section>
+
+    <!-- Модальное окно -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <h3>Поздравляем!</h3>
+            <p>Вы набрали <span id="modalScore">0</span> очков!</p>
+            <button onclick="closeModal()">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 baBla_b0tikxd. Все права защищены. <a href="#">Политика конфиденциальности</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
